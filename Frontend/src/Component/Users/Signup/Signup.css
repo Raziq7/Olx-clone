@@ -1,0 +1,114 @@
+.all {
+	background: linear-gradient(154deg, rgba(16, 71, 211, 0.7), rgba(255, 194, 0, 0.5));
+	width: 100%;
+   height: 500px;
+}
+
+.parent {
+	width: 550px;
+	height: 350px;
+	text-align: center;
+	vertical-align: center;
+	margin: 100px;
+	padding: 20px;
+	background: rgba(20, 92, 200, 0.7);
+	overflow: hidden;
+	z-index: 1;
+	position: absolute;
+	box-shadow: 10px 10px rgba(1,1,1,0.4);
+}
+
+form {
+	z-index: 3;
+	width: 100%;
+	height: 100%;
+}
+
+.nice-one {
+  width: 900px;
+  height: 73px;
+  background: rgb(116, 191, 244);
+  transform: rotate(44deg);
+  position: absolute;
+  margin-left: -300px;
+  z-index: -1;
+}
+
+.nice-two {
+  width: 800px;
+  height: 73px;
+  background: rgb(244, 233, 116);
+  transform: rotate(84deg);
+  position: absolute;
+  z-index: -3;
+}
+
+.nice-three {
+  width: 1000px;
+  left: -30px;
+  height: 73px;
+  background: rgb(244, 116, 116);
+  transform: rotate(168deg);
+  position: absolute;
+  z-index: -2;
+}
+
+h3 {
+  font-family: "Arial", sans-serif;
+  letter-spacing: 2.3px;
+  font-weight: lighter;
+  font-size: 24.5px;
+  text-shadow: 3px 5px 6px rgba(51,33,22,0.7);
+}
+
+input {
+	width: 90%;
+	height: 27px;
+	text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.in-name {
+	border: solid 1px rgba(143,32,100,0.7);
+	padding: 10px;
+	font-size: 16.6px;
+}
+
+.btn {
+	width: 223px;
+	height: 50px;
+	line-height: 1.2;
+	text-align: center;
+	vertical-align: middle;
+	border: none;
+	padding: 10px;
+	margin: 10px;
+	background: none;
+	font-size: 18.6px;
+	color: #ffffff;
+	overflow: hidden;
+	letter-spacing: 2px;
+}
+.btn>div{
+	
+	transition: all 0.6s ease 0s;
+}
+.one {
+	margin: -35px 0 13px 0;
+}
+.two {
+	color: rgb(54, 146, 216);
+}
+
+.btn:hover>div {
+	padding-top: 40px;
+}
+
+.btn-day {
+	background: rgba(23,52,132,0.6);
+	transition: all 0.6s ease 0s;
+}
+.btn-day:hover {
+	background: rgba(33,62,142,0.7);
+}
+
