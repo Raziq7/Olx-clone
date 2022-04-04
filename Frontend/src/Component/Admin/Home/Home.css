@@ -1,3 +1,18 @@
-.table{
-margin-top: 50px;
+.table {
+  margin-top: 2px;
+}
+/* .searchdiv { */
+/* display: flex; */
+/* } */
+.searchIn {
+  border: 1px solid;
+  margin-top: 70px;
+  width: auto;
+  margin-top: 90px;
+}
+.butn {
+  background-color: rgb(85, 85, 121);
+  width: 50px;
+  height: 30px;
+  margin-left: 5px;
 }

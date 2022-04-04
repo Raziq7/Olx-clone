@@ -1,6 +1,6 @@
 import express from 'express'
 import {UserData,userEdit ,editUser,deleteUser} from '../Helper/adminHelper.js'
-const router=express.Router()
+const router=express.Router()   
 
 router.route('/').get(UserData)
 router.route('/userEdit/:id').get(userEdit)
