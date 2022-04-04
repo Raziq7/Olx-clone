@@ -5,6 +5,7 @@
   "main": "server.js",
   "type": "module",
   "engines": {
+    "npm": "8.5.0",
     "node": "16.x"
   },
   "scripts": {
